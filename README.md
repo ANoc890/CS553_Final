@@ -20,4 +20,5 @@ Running:
 
 For benchmarking the results, use the tool of your choice. Results recorded in the
 project writeup were achieved throught the use of wrk2 and the input parameters
-listed.
+listed. When benchmarking connect to the local host on port 8080 for all except 
+io_uring_register_files_multi.c, which also accepts on port 8081.
